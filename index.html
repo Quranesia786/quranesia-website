@@ -2,117 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quranesia Online Academy</title>
-  <meta name="description" content="Quranesia Online Academy - Learn Quran with Tajweed, Hifz, Qaida & Islamic Studies from certified teachers. Enroll today!">
-  <link rel="icon" type="image/png" href="logo.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f9fa;
-    }
-    .navbar-brand img {
-      height: 40px;
-      margin-right: 10px;
-    }
-    .hero {
-      background-color: #174c36;
-      color: white;
-      padding: 60px 0;
-      text-align: center;
-    }
-    .section-title {
-      color: #174c36;
-      font-weight: bold;
-      margin-bottom: 30px;
-    }
-    footer {
-      background-color: #174c36;
-      color: white;
-      padding: 20px 0;
-    }
-    .btn-enroll {
-      background-color: #28a745;
-      border: none;
-    }
-    .btn-enroll:hover {
-      background-color: #218838;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quranesia Online Academy - Learn Quran Online</title>
+  <meta name="description" content="Learn Quran online with expert teachers at Quranesia Academy. Courses in Tajweed, Hifz, Qaida and Islamic Studies for all ages." />
+  <meta name="keywords" content="Quranesia, Quran Academy, Learn Quran Online, Hifz, Tajweed, Islamic Courses" />
+  <meta name="author" content="Qari Muhammad Waseem" />
+  <link rel="icon" href="logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet" />
 </head>
-<body>
+<body class="bg-white text-gray-800">
 
   <!-- ✅ Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="logo.png" alt="Quranesia Logo">
-        Quranesia Academy
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="registration.html">Register</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="donate.html">Donate</a></li>
-        </ul>
+  <nav class="bg-green-900 text-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="logo.png" alt="Quranesia Logo" class="h-12" />
+        <h1 class="text-2xl font-bold">Quranesia Academy</h1>
       </div>
+      <ul class="flex space-x-6 text-sm font-medium">
+        <li><a href="index.html" class="text-yellow-300">Home</a></li>
+        <li><a href="registration.html" class="hover:text-yellow-300">Register</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+        <li><a href="blog.html" class="hover:text-yellow-300">Blog</a></li>
+        <li><a href="donate.html" class="hover:text-yellow-300">Donate</a></li>
+      </ul>
     </div>
   </nav>
 
   <!-- ✅ Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1 class="display-5 fw-bold">Welcome to Quranesia Online Academy</h1>
-      <p class="lead">Learn Quran with certified teachers from the comfort of your home</p>
-      <a href="registration.html" class="btn btn-enroll btn-lg mt-3">Enroll Now</a>
-    </div>
-  </section>
+  <header class="bg-green-50 text-center py-16 px-4">
+    <h2 class="text-4xl md:text-5xl font-bold text-green-900 mb-4">Welcome to Quranesia Online Academy</h2>
+    <p class="text-lg max-w-xl mx-auto text-gray-700">Learn Quran with proper Tajweed, Hifz, and Islamic Studies. Join from anywhere in the world with expert teachers and flexible timings.</p>
+    <a href="registration.html" class="mt-6 inline-block bg-green-700 text-white px-6 py-2 rounded hover:bg-green-800 transition">Join Now</a>
+  </header>
 
-  <!-- ✅ Features Section -->
-  <section class="py-5">
-    <div class="container">
-      <h2 class="text-center section-title">Our Courses</h2>
-      <div class="row text-center">
-        <div class="col-md-3 mb-4">
-          <h5>Qaida for Beginners</h5>
-          <p>Basic reading skills for new learners</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <h5>Quran with Tajweed</h5>
-          <p>Perfect your recitation with rules</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <h5>Hifz Program</h5>
-          <p>Memorize the Holy Quran completely</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <h5>Islamic Studies</h5>
-          <p>Gain deep understanding of Islam</p>
-        </div>
+  <!-- ✅ Courses Section -->
+  <section class="py-16 px-6 bg-white max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-center text-green-900 mb-10">Our Courses</h3>
+    <div class="grid md:grid-cols-4 gap-8">
+      <div class="bg-gray-100 p-6 rounded shadow text-center">
+        <h4 class="text-xl font-semibold mb-2">Qaida</h4>
+        <p>Start from basics with Noorani Qaida – perfect for beginners and kids.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded shadow text-center">
+        <h4 class="text-xl font-semibold mb-2">Tajweed</h4>
+        <p>Master Quran pronunciation with certified teachers of Tajweed.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded shadow text-center">
+        <h4 class="text-xl font-semibold mb-2">Hifz</h4>
+        <p>Memorize the Quran with a structured and motivational method.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded shadow text-center">
+        <h4 class="text-xl font-semibold mb-2">Islamic Studies</h4>
+        <p>Learn basic Islamic beliefs, fiqh, duas, and seerah of the Prophet ﷺ.</p>
       </div>
     </div>
   </section>
 
-  <!-- ✅ Contact Short Info -->
-  <section class="text-center py-5 bg-light">
-    <h4 class="mb-2">📞 WhatsApp: 0308-1327994</h4>
-    <h5>📧 Email: quranesiaacademy@gmail.com</h5>
+  <!-- ✅ Testimonials -->
+  <section class="bg-green-50 py-14 text-center">
+    <h3 class="text-2xl font-bold text-green-900 mb-6">Why Choose Quranesia?</h3>
+    <p class="max-w-2xl mx-auto text-gray-700">✔️ Qualified male & female teachers<br>✔️ Flexible class timing<br>✔️ Free trial classes<br>✔️ One-on-one online teaching</p>
   </section>
 
   <!-- ✅ Footer -->
-  <footer class="text-center">
-    <div class="container">
-      <p>&copy; 2025 Quranesia Online Academy. All rights reserved.</p>
-      <p><a href="https://wa.me/923081327994" style="color:#fff;">Chat on WhatsApp</a> | <a href="mailto:quranesiaacademy@gmail.com" style="color:#fff;">Email Us</a></p>
-    </div>
+  <footer class="bg-green-900 text-white text-center py-6 mt-10 text-sm">
+    <p>&copy; 2025 Quranesia Online Academy. All rights reserved.</p>
+    <p>📧 quranesiaacademy@gmail.com | 📞 WhatsApp: 0308-1327994</p>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
