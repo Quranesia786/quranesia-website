@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Quranesia Academy</title>
+  <meta name="description" content="Contact Quranesia Academy for Quran classes, registration, and support. We're here to help you connect with the Quran." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- ✅ Navbar -->
+  <nav class="bg-green-900 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <img src="logo.png" alt="Quranesia Logo" class="h-12" />
+        <h1 class="text-2xl font-bold">Quranesia Academy</h1>
+      </div>
+      <ul class="flex space-x-6">
+        <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
+        <li><a href="registration.html" class="hover:text-yellow-300">Register</a></li>
+        <li><a href="contact.html" class="text-yellow-300 font-bold underline">Contact</a></li>
+        <li><a href="blog.html" class="hover:text-yellow-300">Blog</a></li>
+        <li><a href="donate.html" class="hover:text-yellow-300">Donate</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ✅ Contact Form Section -->
+  <section class="py-16 px-4 max-w-3xl mx-auto">
+    <h2 class="text-3xl font-bold text-center text-green-800 mb-8">Contact Quranesia Academy</h2>
+    <form action="https://formspree.io/f/movwgvgo" method="POST" class="bg-white p-8 shadow-md rounded space-y-4">
+      <input type="text" name="name" placeholder="Your Name" required class="w-full p-2 border rounded" />
+      <input type="email" name="email" placeholder="Your Email" required class="w-full p-2 border rounded" />
+      <textarea name="message" placeholder="Your Message" rows="6" required class="w-full p-2 border rounded"></textarea>
+      <button type="submit" class="bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded">Send Message</button>
+    </form>
+
+    <!-- ✅ Contact Info -->
+    <div class="mt-10 text-center text-sm text-gray-700">
+      <p>📧 Email: <a href="mailto:quranesiaacademy@gmail.com" class="text-green-700 underline">quranesiaacademy@gmail.com</a></p>
+      <p>📱 WhatsApp: <a href="https://wa.me/923081327994" class="text-green-700 underline">0308-1327994</a></p>
+    </div>
+  </section>
+
+  <!-- ✅ Footer -->
+  <footer class="bg-green-900 text-white text-center py-6 mt-10 text-sm">
+    <p>&copy; 2025 Quranesia Online Academy. All rights reserved.</p>
+    <p>📧 quranesiaacademy@gmail.com | 📞 WhatsApp: 0308-1327994</p>
+  </footer>
+
+</body>
+</html>
